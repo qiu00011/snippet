@@ -1,6 +1,6 @@
 import { connect } from 'cloudflare:sockets';
-let 我的VL密钥 = '';
-let 反代IP = '';
+let 我的VL密钥 = '1c2d93a5-2b66-44a9-aee2-c97d4649841f';
+let 反代IP = 'proxyip.cmliussss.net';
 export default {
   async fetch(访问请求) {
     if (访问请求.headers.get('Upgrade') === 'websocket') {
